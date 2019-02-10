@@ -88,9 +88,6 @@ func Migrate(migrationsPath string, db *sql.DB) error {
 		if err := migration.Migrate(db); err != nil {
 			return err
 		}
-		if migration.err != nil {
-			return err
-		}
 	}
 
 	return nil
