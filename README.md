@@ -25,7 +25,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = migrate.Migrate("../../migrations", db)
+	err = stupidmigration.Migrate("../../migrations", db)
 	if err != nil {
 		log.Fatal("Error running migrations:", err)
 	}
