@@ -2,7 +2,7 @@ module github.com/pajlada/stupidmigration
 
 go 1.19
 
-require honnef.co/go/tools v0.4.6
+require honnef.co/go/tools v0.4.7
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
