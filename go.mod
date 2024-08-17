@@ -1,13 +1,15 @@
 module github.com/pajlada/stupidmigration
 
-go 1.19
+go 1.22.1
 
-require honnef.co/go/tools v0.4.7
+toolchain go1.23.0
+
+require honnef.co/go/tools v0.5.1
 
 require (
-	github.com/BurntSushi/toml v1.2.1 // indirect
-	golang.org/x/exp/typeparams v0.0.0-20221208152030-732eee02a75a // indirect
-	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
-	golang.org/x/tools v0.12.1-0.20230825192346-2191a27a6dc5 // indirect
+	github.com/BurntSushi/toml v1.4.1-0.20240526193622-a339e1f7089c // indirect
+	golang.org/x/exp/typeparams v0.0.0-20240808152545-0cdaa3abc0fa // indirect
+	golang.org/x/mod v0.20.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/tools v0.24.0 // indirect
 )
