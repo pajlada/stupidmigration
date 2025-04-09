@@ -1,7 +1,6 @@
 module github.com/pajlada/stupidmigration
 
-go 1.22.1
-toolchain go1.23.0
+go 1.23
 
 require honnef.co/go/tools v0.6.1
 
