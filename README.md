@@ -3,6 +3,7 @@
 a stupid migration tool for Go, aimed at postgresql. only up, no down
 
 here's a handy bash script to generate a migration
+
 ```bash
 #!/bin/bash
 
